@@ -9,14 +9,14 @@ pip install PyDrive
 
 Code:  
 
-from pydrive.auth import GoogleAuth  
+~~~~from pydrive.auth import GoogleAuth  
 from pydrive.drive import GoogleDrive  
 import driveFilePicker as dFP #this file  
 
 gauth = GoogleAuth()  
 gauth.LocalWebserverAuth() # Creates local webserver and auto handles authentication  
 
-drive = GoogleDrive(gauth)  
+drive = GoogleDrive(gauth)~~~~  
 
 Pass this drive instance to the PICK method in driveFilePicker.py  
 
